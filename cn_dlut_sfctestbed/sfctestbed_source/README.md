@@ -6,7 +6,7 @@
 
 #Credits
 
-1. eclipse 2. IDEA 3. maven 4. doxgen
+1. eclipse 2. IDEA 3. maven 4. doxygen
 
 The Spring Boot MVC helps the sfctestbed in accelerating and facilitating application development. 
 
@@ -57,5 +57,4 @@ Job annotation:
 	@Id
 	@GeneratedValue
 
-The Spring Boot MVC helps the sfctestbed in class document automatic generation. 
-\doxgen\
+The Doxygen helps the sfctestbed in class document automatic generation.

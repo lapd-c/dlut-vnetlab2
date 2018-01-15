@@ -10,15 +10,15 @@
 
 The Spring Boot MVC helps the sfctestbed in accelerating and facilitating application development. 
 
-Application annotation:
-\DemoApplication
+Application annotation: 
+\DemoApplication 
 
 	@SpringBootApplication
 	@EnableJpaRepositories
 	@EntityScan
 	@EnableScheduling
 
-Service annotation:
+Service annotation: 
 \configplatform\ 
 \openstack\ 
 \service\ 
@@ -27,7 +27,7 @@ Service annotation:
 	@Service
 	@Autowired
 
-Rest annotation:
+Rest annotation: 
 \controller\ 
 
 	@RestController
@@ -36,20 +36,21 @@ Rest annotation:
 	@CrossOrigin
 	@RequestBody
 
-DAO annotation:
+DAO annotation: 
 \dao\ 
 	
 	@Transactional
 	@Query
 	@Modifying
 
-Job annotation:
+Job annotation: 
 \job\ 
 
 	@Component
 	@Scheduled
 
-\modular\ Entity annotation:
+Entity annotation: 
+\modular\ 
 
 	@Entity
 	@Table
